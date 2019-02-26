@@ -53,7 +53,8 @@
   },
   "ember-addon": {
     "paths": [
-      "lib/amaretti"
+      "lib/amaretti",
+      "lib/ialr"
     ]
   }
 }

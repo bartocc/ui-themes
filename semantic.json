@@ -8,7 +8,7 @@
       "themes": "src/themes/"
     },
     "output": {
-      "packaged": "../../lib/amaretti/addon/styles/",
+      "packaged": "../../lib/ialr/addon/styles/",
       "uncompressed": "dist/components/",
       "compressed": "dist/components/",
       "themes": "dist/themes/"

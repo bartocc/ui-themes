@@ -1,0 +1,9 @@
+{
+  "name": "ialr",
+  "keywords": [
+    "ember-addon"
+  ],
+  "dependencies": {
+    "ember-cli-babel": "^7.5.0"
+  }
+}
