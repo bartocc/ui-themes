@@ -12,6 +12,7 @@
   },
   "scripts": {
     "build": "ember build",
+    "build-semantic": "cd semantic; gulp build",
     "lint:hbs": "ember-template-lint .",
     "lint:js": "eslint .",
     "start": "ember serve",
