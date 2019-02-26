@@ -3824,6 +3824,9 @@
 .ui.vertical.buttons .button:only-child {
   border-radius: 0.28571429rem;
 }
+.ui.button::after {
+  content: "ialr button";
+}
 
 
 /*******************************
