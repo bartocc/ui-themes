@@ -11,11 +11,11 @@
     "test": "tests"
   },
   "scripts": {
-    "build": "ember build",
-    "build-semantic": "cd vendor/semantic; gulp build",
+    "build": "yarn run build-semantic; ember build",
+    "build-semantic": "cd vendor/semantic; sed -i -e \"s/default/$PAROG_NAME/g\" src/theme.config; gulp build; sed -i -e \"s/$PAROG_NAME/default/g\" src/theme.config",
     "lint:hbs": "ember-template-lint .",
     "lint:js": "eslint .",
-    "start": "ember serve",
+    "start": "yarn run build-semantic; ember serve",
     "test": "ember test"
   },
   "devDependencies": {
